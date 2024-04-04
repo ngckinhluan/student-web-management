@@ -36,37 +36,16 @@
 
   <p align="center">
     An elementary web application facilitating CRUD operations for student management.<br />
-    <a href="https://github.com/dunghuynh-teaching/prj301-se1867-05.git"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/ngckinhluan/student-web-management"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="#usage">View Demo
     ·
-    <a href="https://github.com/dunghuynh-teaching/prj301-se1867-05/issues">Report Bug</a>
+    <a href="https://github.com/ngckinhluan/student-web-management/issues">Report Bug</a>
     ·
-    <a href="https://github.com/dunghuynh-teaching/prj301-se1867-05/issues">Request Feature</a>
+    <a href="https://github.com/ngckinhluan/student-web-management/issues">Request Feature</a>
   </p>
 </div>
-
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-    </li>
-    <li>
-      <a href="#requirement">Requirement</a>
-    </li>
-    <li><a href="#usage">Wireframe and Screenshots of the systems</a></li>
-    <li><a href="#roadmap">Database Design</a></li>
-    <li><a href="#contributing">System Design</a></li>
-    <li><a href="#license">Conclusion and Discussion</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-</ol>
-</details>
 
 <!-- ABOUT THE PROJECT -->
 
@@ -75,6 +54,11 @@
 This project serves as an assignment for the PRJ301 - Programming with Java Web at FPT University. Students are tasked with applying the Java programming knowledge acquired in the pre-requisite course, PRO192 (Programming OOP with Java) and apply them in conjunction with database knowledge gained from DBI202 (Introduction to Database). to develop a practical, real-life application.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Usage
+
+- Below is a demonstration for this basic CRUD Java Web Project.
+  ![Demo](./gif/Animation.gif)
 
 ## Requirement
 

@@ -90,6 +90,7 @@ public class StudentController extends HttpServlet {
             if (id != null) {
                 student = studentDAO.load(id);
             }
+            request.setAttribute("nextaction", "update");
             request.setAttribute("student", student);
             RequestDispatcher rd = request.getRequestDispatcher("studentedit.jsp");
             rd.forward(request, response);

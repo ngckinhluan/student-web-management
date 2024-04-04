@@ -129,13 +129,14 @@ public class StudentDAO {
     Update student and return Id
      */
     public boolean update(StudentDTO student) {
-        String sql = "UPDATE student SET firstname = ?, lastname = ? WHERE id = ?";
+        String sql = "UPDATE student SET firstname = ?, lastname = ?, age = ? WHERE id = ?";
         try {
             Connection con = DBUtils.getConnection();
             PreparedStatement stm = con.prepareStatement(sql);
             stm.setString(1, student.getFirstname());
             stm.setString(2, student.getLastname());
-            stm.setInt(3, student.getId());
+            stm.setInt(3, student.getAge());
+            stm.setInt(4, student.getId());
             int rowsAffected = stm.executeUpdate();
             con.close();
             return rowsAffected > 0;
